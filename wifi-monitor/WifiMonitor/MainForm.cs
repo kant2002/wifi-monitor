@@ -1,18 +1,12 @@
 ﻿namespace WifiMonitor
 {
     using System;
-    using System.Threading.Tasks;
-    using System.Windows.Forms;
-    using System.Runtime.InteropServices.WindowsRuntime;
-    using Windows.Foundation;
-    using Windows.Networking.Connectivity;
-    using Windows.UI.Notifications;
-    using Windows.Data.Xml.Dom;
-    using System.Diagnostics;
+    using System.Collections.Generic;
     using System.Text;
+    using System.Windows.Forms;
     using WifiMonitor.Properties;
-using System.Collections.Generic;
-
+    using Windows.Data.Xml.Dom;
+    using Windows.UI.Notifications;
 
     public partial class MainForm : Form
     {
